@@ -32,5 +32,25 @@ Mengelola koleksi buku dan berbagai operasi terkait.
 ```python
 library = Library()
 
+### 2. Menambahkan Buku
+```python
 library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 2))
 library.add_book(Book("1984", "George Orwell", 5))
+
+### 3. Meminjam Buku
+```python
+library.borrow_book("1984")
+
+### 4. Mengembalikan Buku
+```python
+library.return_book("1984")
+
+### 5. Menghasilkan Laporan
+```python
+library.generate_report("library_report.txt")
+
+### Contoh Laporan
+```yaml
+Library Inventory Report:
+1. The Great Gatsby by F. Scott Fitzgerald - Copies Available: 2
+2. 1984 by George Orwell - Copies Available: 5
