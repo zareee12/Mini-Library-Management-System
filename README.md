@@ -31,3 +31,6 @@ Mengelola koleksi buku dan berbagai operasi terkait.
 ### 1. Inisialisasi Perpustakaan
 ```python
 library = Library()
+
+library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 2))
+library.add_book(Book("1984", "George Orwell", 5))
