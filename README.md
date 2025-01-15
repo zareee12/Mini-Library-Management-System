@@ -31,24 +31,24 @@ Mengelola koleksi buku dan berbagai operasi terkait.
 ### 1. Inisialisasi Perpustakaan
 ```python
 library = Library()
----
+```
 ### 2. Menambahkan Buku
 ```python
 library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", 2))
 library.add_book(Book("1984", "George Orwell", 5))
-
+```
 ### 3. Meminjam Buku
 ```python
 library.borrow_book("1984")
-
+```
 ### 4. Mengembalikan Buku
 ```python
 library.return_book("1984")
-
+```
 ### 5. Menghasilkan Laporan
 ```python
 library.generate_report("library_report.txt")
-
+```
 ### Contoh Laporan
 ```yaml
 Library Inventory Report:
